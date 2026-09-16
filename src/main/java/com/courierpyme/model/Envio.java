@@ -11,8 +11,8 @@ public class Envio {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, unique = true)
-    private String codigoSeguimiento;
+    @Column(name = "codigo_seguimiento", nullable = false, unique = true)
+private String codigoSeguimiento;
 
     @Column(nullable = false)
     private String destinatario;
